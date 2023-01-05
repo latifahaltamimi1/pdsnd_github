@@ -192,7 +192,8 @@ def display(df):
             print(df.iloc[data : data + 5])
         elif choose == 'no':        
             break
-
+def about():
+    
 def main():
     while True:
         city, month, day = get_filters()
