@@ -192,7 +192,8 @@ def display(df):
             print(df.iloc[data : data + 5])
         elif choose == 'no':        
             break
-
+def about():
+    
 def main():
     while True:
         city, month, day = get_filters()
@@ -206,7 +207,7 @@ def main():
          
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
-            print('Thank you ;)')
+            print('Thank you ;) see you soon')
             break
 
 
